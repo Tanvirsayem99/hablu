@@ -1,0 +1,326 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'josefin sans', sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(aeio.jpg); 
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: 1400px 700px;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #f9004d;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform:capitalize ;
+}
+nav ul li a:hover{
+            color: #f9004d;
+            transition: .4s;
+}
+.btn{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transfrom .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.mine .ddh{
+    color: #CEA5CE;
+    padding-left: 8%;
+    padding-top: 90px;
+}
+.mine .th{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+    padding-left: 8%;
+}
+.cr p{
+    color: white;
+    font-weight: bold;
+    padding-left: 11%;
+    padding-top: 18px;
+}
+.ent{
+    display: inline;
+    justify-content: center;
+}
+.ent input{
+    border-radius: 50px 50px 50px;
+    border:2px solid #F9004D ;
+    padding-left: 15px;
+    width: 400px;
+    margin-left:10%;
+    margin-top:50px ;
+    height: 50px;
+}
+.ent button{
+    background-color: #F9004D;
+    width: 130px;
+    height: 40px;
+    border-radius:50px 50px 50px;
+    margin-left: -135px;
+    border: none;
+    cursor: pointer;
+    
+}
+.middle{
+    background-color: #3A3838;
+    justify-content: center;
+    
+    width: 100%;
+}
+.middle img{
+    width: 500px;
+    padding-left: 120px;
+}
+.middle .para{
+    width: 600px;
+    float: right;
+    margin-top: -350px;
+    margin-right: 150px;
+    
+}
+.middle .para h1{
+    color: white;
+    font-size: 50px;
+    padding: 13px;
+}
+.middle .para h4{
+    color: white;
+    padding: 20px;
+
+}
+.middle .para h4 span{
+    color: #F9004D;
+}
+.middle .para p{
+    color: aquamarine;
+    text-align: justify;
+}
+.middle button{
+    width: 100px;
+    height: 35px;
+    margin: 40px;
+    border-radius:50px 50px 50px ;
+    background-color: #F9004D;
+    border: none;
+    cursor: pointer;
+    
+}
+.middle button:hover{
+    background-color: #3A3838;
+    border: 2px solid black;
+    color: white;
+}
+ .sin{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100px;
+
+} 
+.sin h1{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.sec{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+    
+    
+}
+.sec .frist{
+    width: 300px;
+    background-color: #191919;
+    height: 350px;
+    border-radius: 30px 30px 30px;
+    position: relative;
+    margin: 30px;
+    padding: 50px;
+}
+.sec .frist i{
+    align-items: center;
+    margin-left: 60px;
+    padding: 20px;
+    font-size: 50px;
+    color: #F9004D;
+}
+.sec .frist h3{
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+
+
+}
+.sec .frist p{
+    text-align: justify;
+    color: aqua;
+}
+.sec .frist button{
+    width: 90px;
+    height: 30px;
+    border: none;
+    background-color: #F9004D;
+    border-radius: 50px 50px 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.sec .frist button:hover{
+    background-color: #191919;
+    border: 2px solid black;
+    color: white;
+}
+.sec .second{
+    position:relative;
+    background-color: #191919;
+    width: 300px;
+    padding: 50px;
+    margin: 30px;
+    height: 350px;
+    border-radius: 30px 30px 30px;
+}
+.sec .second i{
+    align-items: center;
+    margin-left: 60px;
+    padding: 20px;
+    font-size: 50px;
+    color: #F9004D;
+}
+.sec .second h3{
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+.sec .second
+ p{
+    text-align: justify;
+    color: aqua;
+}
+.sec .second button{
+    width: 90px;
+    height: 30px;
+    border: none;
+    background-color: #F9004D;
+    border-radius: 50px 50px 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    cursor: pointer;  
+}
+.sec .third{
+    position: relative;
+    width: 300px;
+    padding: 50px;
+    background-color: #191919;
+    margin: 30px;
+    height: 350px;
+    border-radius: 30px 30px 30px;
+}
+.sec .second button:hover{
+    background-color: #191919;
+    border: 2px solid black;
+    color: white;
+}
+.sec .third i{
+    align-items: center;
+    margin-left: 60px;
+    padding: 20px;
+    font-size: 50px;
+    color: #F9004D;
+}
+.sec .third h3{
+    
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+.sec .third p{
+    text-align: justify;
+    color: aqua;
+
+}
+.sec .third button{
+    width: 90px;
+    height: 30px;
+    border: none;
+    background-color: #F9004D;
+    border-radius: 50px 50px 50px;
+    margin-left: 50px;
+    margin-top: 20px;  
+    cursor: pointer;
+}
+.sec .third button:hover{
+    background-color: #191919;
+    border: 2px solid black;
+    color: white;
+}
+.hir{
+    background-color: #191919;
+    width: 100%;
+    height: 200px;
+}
+.hir p{
+    color: white;
+    font-weight: 200px;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+}
+.hir button{
+    background-color: #F9004D;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px 50px 50px;
+    border: none;
+    margin-left: 590px;
+    margin-top: 30px;
+}
+.hir button:hover{
+    background-color: #191919;
+    border: 2px solid black;
+    color: white;
+}
